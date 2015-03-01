@@ -1,0 +1,449 @@
+root@cubox-i:/opt/iobroker# tail -f log/iobroker.log
+2014-11-10 17:26:53.022  - info: ping.0 terminating
+2014-11-10 17:26:53.050  - info: controller instance system.adapter.ping.0 terminated with code 0
+2014-11-10 17:27:02.517  - info: controller force terminated after 10s
+2014-11-10 17:27:11.195  - info: ioBroker.js-controller version 0.0.35 js-controller starting
+2014-11-10 17:27:11.203  - info: Copyright (c) 2014 hobbyquaker, bluefox
+2014-11-10 17:27:11.204  - info: controller hostname: cubox-i
+2014-11-10 17:27:11.204  - info: controller ip addresses: 192.168.2.179 fe80::d263:b4ff:fe00:1e53
+2014-11-10 17:27:12.655  - info: controller 8 instances found
+2014-11-10 17:27:12.658  - info: controller starting 7 instances
+2014-11-10 17:27:12.679  - info: controller instance scheduled system.adapter.dwd.0 0,15,30,45 * * * *
+2014-11-10 17:27:16.681  - info: controller instance system.adapter.history.0 started with pid 13261
+2014-11-10 17:27:18.657  - info: history.0 starting. Version 0.0.7
+2014-11-10 17:27:20.675  - info: controller instance system.adapter.hm-rega.0 started with pid 13267
+2014-11-10 17:27:22.633  - info: hm-rega.0 starting. Version 0.1.8
+2014-11-10 17:27:22.642  - info: hm-rega.0 subscribe hm-rpc.0.BidCoS-RF:50.PRESS_SHORT
+2014-11-10 17:27:23.525  - info: hm-rega.0 ReGaHSS 192.168.2.186 up
+2014-11-10 17:27:23.573  - info: hm-rega.0 time difference local-ccu 1s
+2014-11-10 17:27:23.648  - info: hm-rega.0 added/updated 6 favorites to enum.favorites
+2014-11-10 17:27:23.856  - info: hm-rega.0 added/updated 11 functions to enum.functions
+2014-11-10 17:27:24.187  - info: hm-rega.0 added/updated 16 rooms to enum.rooms
+2014-11-10 17:27:24.320  - info: hm-rega.0 renamed hm-rpc.0.JEQ0140901:1 to "Wetterstation:1"
+2014-11-10 17:27:24.672  - info: controller instance system.adapter.hm-rpc.0 started with pid 13273
+2014-11-10 17:27:25.759  - info: hm-rega.0 renamed hm-rpc.0.JEQ0140901:0 to "Wetterstation:0"
+2014-11-10 17:27:26.200  - info: hm-rega.0 renamed hm-rpc.0.JEQ0140901 to "Wetterstation"
+2014-11-10 17:27:26.281  - info: hm-rega.0 renamed hm-rpc.0.JEQ0139530:1 to "Unterschrankbeleuchtung:1"
+2014-11-10 17:27:26.370  - info: hm-rega.0 renamed hm-rpc.0.JEQ0139530:0 to "Unterschrankbeleuchtung:0"
+2014-11-10 17:27:26.461  - info: hm-rega.0 renamed hm-rpc.0.JEQ0139530 to "Unterschrankbeleuchtung"
+2014-11-10 17:27:26.540  - info: hm-rega.0 renamed hm-rpc.0.JEQ0243432:2 to "Taster Küche oben"
+2014-11-10 17:27:26.640  - info: hm-rega.0 renamed hm-rpc.0.JEQ0243432:1 to "Taster Küche unten"
+2014-11-10 17:27:26.696  - info: hm-rega.0 renamed hm-rpc.0.JEQ0243432:0 to "Taster Küche hinten:0"
+2014-11-10 17:27:26.794  - info: hm-rega.0 renamed hm-rpc.0.JEQ0243432 to "Taster Küche hinten"
+2014-11-10 17:27:26.873  - info: hm-rega.0 renamed hm-rpc.0.JEQ0243266:2 to "Taster Esszimmer oben"
+2014-11-10 17:27:26.965  - info: hm-rega.0 renamed hm-rpc.0.JEQ0243266:1 to "Taster Esszimmer unten"
+2014-11-10 17:27:27.049  - info: hm-rega.0 renamed hm-rpc.0.JEQ0243266:0 to "Taster Esszimmer:0"
+2014-11-10 17:27:27.130  - info: hm-rega.0 renamed hm-rpc.0.JEQ0243266 to "Taster Esszimmer"
+2014-11-10 17:27:27.244  - info: hm-rega.0 renamed hm-rpc.0.JEQ0499736:1 to "Steckerschalter Garage:1"
+2014-11-10 17:27:27.312  - info: hm-rega.0 renamed hm-rpc.0.JEQ0499736:0 to "Steckerschalter Garage:0"
+2014-11-10 17:27:27.388  - info: hm-rega.0 renamed hm-rpc.0.JEQ0499736 to "Steckerschalter Garage"
+2014-11-10 17:27:27.470  - info: hm-rega.0 renamed hm-rpc.0.LEQ0242145:1 to "Steckdose_Stube_hinten_rechts:1"
+2014-11-10 17:27:27.470  - info: hm-rpc.0 starting. Version 0.2.5
+2014-11-10 17:27:27.598  - info: hm-rega.0 renamed hm-rpc.0.LEQ0242145:0 to "Steckdose_Stube_hinten_rechts:0"
+2014-11-10 17:27:27.741  - info: hm-rega.0 renamed hm-rpc.0.LEQ0242145 to "Steckdose_Stube_hinten_rechts"
+2014-11-10 17:27:27.840  - info: hm-rega.0 renamed hm-rpc.0.LEQ0242152:1 to "Steckdose_Stube_hinten_links:1"
+2014-11-10 17:27:27.938  - info: hm-rega.0 renamed hm-rpc.0.LEQ0242152:0 to "Steckdose_Stube_hinten_links:0"
+2014-11-10 17:27:28.040  - info: hm-rega.0 renamed hm-rpc.0.LEQ0242152 to "Steckdose_Stube_hinten_links"
+2014-11-10 17:27:28.155  - info: hm-rega.0 renamed hm-rpc.0.KEQ0966548:6 to "Steckdose_Mona:6"
+2014-11-10 17:27:28.259  - info: hm-rega.0 renamed hm-rpc.0.KEQ0966548:5 to "Steckdose_Mona:5"
+2014-11-10 17:27:28.394  - info: hm-rega.0 renamed hm-rpc.0.KEQ0966548:4 to "Steckdose_Mona:4"
+2014-11-10 17:27:28.481  - info: hm-rega.0 renamed hm-rpc.0.KEQ0966548:3 to "Steckdose_Mona:3"
+2014-11-10 17:27:28.581  - info: hm-rega.0 renamed hm-rpc.0.KEQ0966548:2 to "Steckdose_Mona:2"
+2014-11-10 17:27:28.675  - info: controller instance system.adapter.legacy.0 started with pid 13279
+2014-11-10 17:27:28.724  - info: hm-rega.0 renamed hm-rpc.0.KEQ0966548:1 to "Steckdose_Mona:1"
+2014-11-10 17:27:28.874  - info: hm-rega.0 renamed hm-rpc.0.KEQ0966548:0 to "Steckdose_Mona:0"
+2014-11-10 17:27:29.015  - info: hm-rega.0 renamed hm-rpc.0.KEQ0966548 to "Steckdose_Mona"
+2014-11-10 17:27:29.131  - info: hm-rega.0 renamed hm-rpc.0.KEQ0967747:6 to "Steckdose_Backofen:6"
+2014-11-10 17:27:29.276  - info: hm-rega.0 renamed hm-rpc.0.KEQ0967747:5 to "Steckdose_Backofen:5"
+2014-11-10 17:27:29.374  - info: hm-rega.0 renamed hm-rpc.0.KEQ0967747:4 to "Steckdose_Backofen:4"
+2014-11-10 17:27:29.551  - info: hm-rega.0 renamed hm-rpc.0.KEQ0967747:3 to "Steckdose_Backofen:3"
+2014-11-10 17:27:29.620  - info: hm-rega.0 renamed hm-rpc.0.KEQ0967747:2 to "Steckdose_Backofen:2"
+2014-11-10 17:27:29.725  - info: hm-rega.0 renamed hm-rpc.0.KEQ0967747:1 to "Steckdose_Backofen:1"
+2014-11-10 17:27:29.862  - info: hm-rega.0 renamed hm-rpc.0.KEQ0967747:0 to "Steckdose_Backofen:0"
+2014-11-10 17:27:29.977  - info: hm-rpc.0 xmlrpc server listening on 0.0.0.0:2000
+2014-11-10 17:27:29.996  - info: hm-rega.0 renamed hm-rpc.0.KEQ0967747 to "Steckdose_Backofen"
+2014-11-10 17:27:29.980  - info: hm-rpc.0 xmlrpc -> 192.168.2.186:2001 init ["http://0.0.0.0:2000","hm-rpc.0"]
+2014-11-10 17:27:30.087  - info: hm-rega.0 renamed hm-rpc.0.IEQ0086197:3 to "schlüssel_Mona:3"
+2014-11-10 17:27:30.170  - info: hm-rega.0 renamed hm-rpc.0.IEQ0086197:2 to "schlüssel_Mona:2"
+2014-11-10 17:27:30.291  - info: hm-rega.0 renamed hm-rpc.0.IEQ0086197:1 to "schlüssel_Mona:1"
+2014-11-10 17:27:30.359  - info: hm-rega.0 renamed hm-rpc.0.IEQ0086197:0 to "schlüssel_Mona:0"
+2014-11-10 17:27:30.450  - info: hm-rega.0 renamed hm-rpc.0.IEQ0086197 to "schlüssel_Mona"
+2014-11-10 17:27:30.552  - info: hm-rega.0 renamed hm-rpc.0.GEQ0013764:3 to "Schlüssel Papa:3"
+2014-11-10 17:27:30.689  - info: hm-rega.0 renamed hm-rpc.0.GEQ0013764:2 to "Schlüssel Papa:2"
+2014-11-10 17:27:30.791  - info: hm-rega.0 renamed hm-rpc.0.GEQ0013764:1 to "Schlüssel Papa:1"
+2014-11-10 17:27:30.883  - info: hm-rega.0 renamed hm-rpc.0.GEQ0013764:0 to "Schlüssel Papa:0"
+2014-11-10 17:27:30.983  - info: hm-rega.0 renamed hm-rpc.0.GEQ0013764 to "Schlüssel Papa"
+2014-11-10 17:27:31.085  - info: hm-rega.0 renamed hm-rpc.0.JEQ0466609:3 to "Schlüssel Mama:3"
+2014-11-10 17:27:31.200  - info: hm-rega.0 renamed hm-rpc.0.JEQ0466609:2 to "Schlüssel Mama:2"
+2014-11-10 17:27:31.312  - info: hm-rega.0 renamed hm-rpc.0.JEQ0466609:1 to "Schlüssel Mama:1"
+2014-11-10 17:27:31.390  - info: hm-rega.0 renamed hm-rpc.0.JEQ0466609:0 to "Schlüssel Mama:0"
+2014-11-10 17:27:31.493  - info: hm-rega.0 renamed hm-rpc.0.JEQ0466609 to "Schlüssel Mama"
+2014-11-10 17:27:31.620  - info: hm-rega.0 renamed hm-rpc.0.JEQ0466320:1 to "Schloss Haustür:1"
+2014-11-10 17:27:31.712  - info: hm-rega.0 renamed hm-rpc.0.JEQ0466320:0 to "Schloss Haustür:0"
+2014-11-10 17:27:31.800  - info: hm-rega.0 renamed hm-rpc.0.JEQ0466320 to "Schloss Haustür"
+2014-11-10 17:27:31.885  - info: hm-rega.0 renamed hm-rpc.0.JEQ0112542:1 to "Rolladen Tina:1"
+2014-11-10 17:27:31.963  - info: hm-rega.0 renamed hm-rpc.0.JEQ0112542:0 to "Rolladen Tina:0"
+2014-11-10 17:27:31.977  - info: legacy.0 starting. Version 0.1.8
+2014-11-10 17:27:32.049  - info: hm-rega.0 renamed hm-rpc.0.JEQ0112542 to "Rolladen Tina"
+2014-11-10 17:27:32.114  - info: legacy.0 webserver     listening on port 8088
+2014-11-10 17:27:32.137  - info: hm-rega.0 renamed hm-rpc.0.JEQ0112436:1 to "Rolladen Stubentür:1"
+2014-11-10 17:27:32.220  - info: hm-rega.0 renamed hm-rpc.0.JEQ0112436:0 to "Rolladen Stubentür:0"
+2014-11-10 17:27:32.310  - info: hm-rega.0 renamed hm-rpc.0.JEQ0112436 to "Rolladen Stubentür"
+2014-11-10 17:27:32.400  - info: hm-rega.0 renamed hm-rpc.0.JEQ0112564:1 to "Rolladen Stubenfenster:1"
+2014-11-10 17:27:32.492  - info: hm-rega.0 renamed hm-rpc.0.JEQ0112564:0 to "Rolladen Stubenfenster:0"
+2014-11-10 17:27:32.584  - info: hm-rega.0 renamed hm-rpc.0.JEQ0112564 to "Rolladen Stubenfenster"
+2014-11-10 17:27:32.676  - info: controller instance system.adapter.node-red.0 started with pid 13285
+2014-11-10 17:27:32.689  - info: hm-rega.0 renamed hm-rpc.0.JEQ0112228:1 to "Rolladen Schlafzimmer:1"
+2014-11-10 17:27:32.815  - info: hm-rega.0 renamed hm-rpc.0.JEQ0112228:0 to "Rolladen Schlafzimmer:0"
+2014-11-10 17:27:32.914  - info: hm-rega.0 renamed hm-rpc.0.JEQ0112228 to "Rolladen Schlafzimmer"
+2014-11-10 17:27:33.029  - info: hm-rega.0 renamed hm-rpc.0.JEQ0110516:1 to "Rolladen Mona:1"
+2014-11-10 17:27:33.118  - info: hm-rega.0 renamed hm-rpc.0.JEQ0110516:0 to "Rolladen Mona:0"
+2014-11-10 17:27:33.250  - info: hm-rega.0 renamed hm-rpc.0.JEQ0110516 to "Rolladen Mona"
+2014-11-10 17:27:33.366  - info: hm-rega.0 renamed hm-rpc.0.JEQ0112354:1 to "Rolladen Küche:1"
+2014-11-10 17:27:33.538  - info: hm-rega.0 renamed hm-rpc.0.JEQ0112354:0 to "Rolladen Küche:0"
+2014-11-10 17:27:33.690  - info: hm-rega.0 renamed hm-rpc.0.JEQ0112354 to "Rolladen Küche"
+2014-11-10 17:27:33.811  - info: hm-rega.0 renamed hm-rpc.0.JEQ0646431:4 to "Quattro:4"
+2014-11-10 17:27:33.924  - info: hm-rega.0 renamed hm-rpc.0.JEQ0646431:3 to "Entfeuchter"
+2014-11-10 17:27:34.053  - info: hm-rega.0 renamed hm-rpc.0.JEQ0646431:2 to "Heizung"
+2014-11-10 17:27:34.207  - info: hm-rega.0 renamed hm-rpc.0.JEQ0646431:1 to "Poolpumpe"
+2014-11-10 17:27:34.300  - info: hm-rega.0 renamed hm-rpc.0.JEQ0646431:0 to "quattro:0"
+2014-11-10 17:27:34.450  - info: hm-rega.0 renamed hm-rpc.0.JEQ0646431 to "quattro"
+2014-11-10 17:27:34.545  - info: hm-rega.0 renamed hm-rpc.0.KEQ0102653:5 to "Pool_Kreislauf:5"
+2014-11-10 17:27:34.748  - info: hm-rega.0 renamed hm-rpc.0.KEQ0102653:4 to "Poolheizung_Erwärmung:4"
+2014-11-10 17:27:34.873  - info: hm-rega.0 renamed hm-rpc.0.KEQ0102653:3 to "Pool_Abkühlung:3"
+2014-11-10 17:27:34.954  - info: hm-rega.0 renamed hm-rpc.0.KEQ0102653:2 to "Küche Rücklauf"
+2014-11-10 17:27:35.071  - info: hm-rega.0 renamed hm-rpc.0.KEQ0102653:1 to "WC Rücklauf"
+2014-11-10 17:27:35.168  - info: hm-rega.0 renamed hm-rpc.0.KEQ0102653:0 to "Pool_Kreislauf:0"
+2014-11-10 17:27:35.258  - info: hm-rega.0 renamed hm-rpc.0.KEQ0102653 to "Pool_Kreislauf"
+2014-11-10 17:27:35.394  - info: hm-rega.0 renamed hm-rpc.0.JEQ0112571:1 to "Markise:1"
+2014-11-10 17:27:35.478  - info: hm-rega.0 renamed hm-rpc.0.JEQ0112571:0 to "Markise:0"
+2014-11-10 17:27:35.489  - info: node-red.0 starting. Version 0.0.4
+2014-11-10 17:27:35.634  - info: hm-rega.0 renamed hm-rpc.0.JEQ0112571 to "Markise"
+2014-11-10 17:27:35.731  - info: hm-rega.0 renamed hm-rpc.0.JEQ0175818:1 to "Licht_SZ:1"
+2014-11-10 17:27:35.836  - info: hm-rega.0 renamed hm-rpc.0.JEQ0175818:0 to "Licht_SZ:0"
+2014-11-10 17:27:35.964  - info: hm-rega.0 renamed hm-rpc.0.JEQ0175818 to "Licht_SZ"
+2014-11-10 17:27:36.081  - info: hm-rega.0 renamed hm-rpc.0.JEQ0201654:3 to "Licht_Stube_Kranz:3"
+2014-11-10 17:27:36.190  - info: hm-rega.0 renamed hm-rpc.0.JEQ0201654:2 to "Licht_Stube_Kranz:2"
+2014-11-10 17:27:36.297  - info: hm-rega.0 renamed hm-rpc.0.JEQ0201654:1 to "Licht_Stube_Kranz:1"
+2014-11-10 17:27:36.396  - info: hm-rega.0 renamed hm-rpc.0.JEQ0201654:0 to "Licht_Stube_Kranz:0"
+2014-11-10 17:27:36.484  - info: hm-rega.0 renamed hm-rpc.0.JEQ0201654 to "Licht_Stube_Kranz"
+2014-11-10 17:27:36.596  - info: hm-rega.0 renamed hm-rpc.0.JEQ0202324:3 to "Licht_Stube_Decke:3"
+2014-11-10 17:27:36.683  - info: controller instance system.adapter.ping.0 started with pid 13291
+2014-11-10 17:27:36.715  - info: hm-rega.0 renamed hm-rpc.0.JEQ0202324:2 to "Licht_Stube_Decke:2"
+2014-11-10 17:27:36.840  - info: hm-rega.0 renamed hm-rpc.0.JEQ0202324:1 to "Licht_Stube_Decke:1"
+2014-11-10 17:27:36.964  - info: hm-rega.0 renamed hm-rpc.0.JEQ0202324:0 to "Licht_Stube_Decke:0"
+2014-11-10 17:27:37.070  - info: hm-rega.0 renamed hm-rpc.0.JEQ0202324 to "Licht_Stube_Decke"
+2014-11-10 17:27:37.184  - info: hm-rega.0 renamed hm-rpc.0.JEQ0033356:1 to "Licht Balkon:1"
+2014-11-10 17:27:37.293  - info: hm-rega.0 renamed hm-rpc.0.JEQ0033356:0 to "Licht Balkon:0"
+2014-11-10 17:27:37.410  - info: hm-rega.0 renamed hm-rpc.0.JEQ0033356 to "Licht Balkon"
+2014-11-10 17:27:37.524  - info: hm-rega.0 renamed hm-rpc.0.JEQ0047574:1 to "Leinwand:1"
+2014-11-10 17:27:37.716  - info: hm-rega.0 renamed hm-rpc.0.JEQ0047574:0 to "Leinwand:0"
+2014-11-10 17:27:37.886  - info: hm-rega.0 renamed hm-rpc.0.JEQ0047574 to "Leinwand"
+2014-11-10 17:27:38.015  - info: hm-rega.0 renamed hm-rpc.0.JEQ0046663:1 to "Klima_Werkstatt:1"
+2014-11-10 17:27:38.140  - info: hm-rega.0 renamed hm-rpc.0.JEQ0046663:0 to "Klima_Werkstatt:0"
+2014-11-10 17:27:38.266  - info: hm-rega.0 renamed hm-rpc.0.JEQ0046663 to "Klima_Werkstatt"
+2014-11-10 17:27:38.454  - info: hm-rega.0 renamed hm-rpc.0.LEQ0080851:7 to "Klima_SZ:7"
+2014-11-10 17:27:38.585  - info: hm-rega.0 renamed hm-rpc.0.LEQ0080851:6 to "Klima_SZ:6"
+2014-11-10 17:27:38.704  - info: hm-rega.0 renamed hm-rpc.0.LEQ0080851:3 to "Klima_SZ:3"
+2014-11-10 17:27:38.836  - info: hm-rega.0 renamed hm-rpc.0.LEQ0080851:2 to "Klima_SZ:2"
+2014-11-10 17:27:38.944  - info: hm-rega.0 renamed hm-rpc.0.LEQ0080851:1 to "Klima_SZ:1"
+2014-11-10 17:27:39.031  - info: node-red.0 Starting node-red: /opt/iobroker/adapter/node-red/node_modules/node-red                                                                                                                     /red.js -v --settings /opt/iobroker/adapter/node-red/userdata/settings.js
+2014-11-10 17:27:39.117  - info: hm-rega.0 renamed hm-rpc.0.LEQ0080851:0 to "Klima_SZ:0"
+2014-11-10 17:27:39.352  - info: hm-rega.0 renamed hm-rpc.0.LEQ0080851 to "Klima_SZ"
+2014-11-10 17:27:39.516  - info: hm-rega.0 renamed hm-rpc.0.LEQ0081020:7 to "Klima_Stube2:7"
+2014-11-10 17:27:39.645  - info: hm-rega.0 renamed hm-rpc.0.LEQ0081020:6 to "Klima_Stube2:6"
+2014-11-10 17:27:39.761  - info: hm-rega.0 renamed hm-rpc.0.LEQ0081020:3 to "Klima_Stube2:3"
+2014-11-10 17:27:39.908  - info: hm-rega.0 renamed hm-rpc.0.LEQ0081020:2 to "Klima_Stube2:2"
+2014-11-10 17:27:39.939  - info: legacy.0 received all objects
+2014-11-10 17:27:40.064  - info: hm-rega.0 renamed hm-rpc.0.LEQ0081020:1 to "Klima_Stube2:1"
+2014-11-10 17:27:39.864  - info: ping.0 starting. Version 0.0.4
+2014-11-10 17:27:40.197  - info: hm-rega.0 renamed hm-rpc.0.LEQ0081020:0 to "Klima_Stube2:0"
+2014-11-10 17:27:39.951  - info: legacy.0 creating ccu.io objects
+2014-11-10 17:27:40.240  - info: legacy.0 requesting all states
+2014-11-10 17:27:40.391  - info: hm-rega.0 renamed hm-rpc.0.LEQ0081020 to "Klima_Stube2"
+2014-11-10 17:27:40.614  - info: hm-rega.0 renamed hm-rpc.0.JEQ0267518:1 to "Klima_Stube:1"
+2014-11-10 17:27:40.750  - info: hm-rega.0 renamed hm-rpc.0.JEQ0267518:0 to "Klima_Stube:0"
+2014-11-10 17:27:40.897  - info: hm-rega.0 renamed hm-rpc.0.JEQ0267518 to "Klima_Stube"
+2014-11-10 17:27:41.158  - info: hm-rega.0 renamed hm-rpc.0.LEQ0440620:7 to "Klima_Bureau:7"
+2014-11-10 17:27:41.368  - info: hm-rega.0 renamed hm-rpc.0.LEQ0440620:6 to "Klima_Bureau:6"
+2014-11-10 17:27:41.461  - info: hm-rega.0 renamed hm-rpc.0.LEQ0440620:3 to "Klima_Bureau:3"
+2014-11-10 17:27:41.579  - info: hm-rega.0 renamed hm-rpc.0.LEQ0440620:2 to "Klima_Bureau:2"
+2014-11-10 17:27:41.701  - info: hm-rega.0 renamed hm-rpc.0.LEQ0440620:1 to "Klima_Bureau:1"
+2014-11-10 17:27:41.802  - info: hm-rega.0 renamed hm-rpc.0.LEQ0440620:0 to "Klima_Bureau:0"
+2014-11-10 17:27:41.912  - info: hm-rega.0 renamed hm-rpc.0.LEQ0440620 to "Klima_Bureau"
+2014-11-10 17:27:42.075  - info: hm-rega.0 renamed hm-rpc.0.JEQ0064523:1 to "Klima_Bad:1"
+2014-11-10 17:27:42.169  - info: hm-rega.0 renamed hm-rpc.0.JEQ0064523:0 to "Klima_Bad:0"
+2014-11-10 17:27:42.308  - info: hm-rega.0 renamed hm-rpc.0.JEQ0064523 to "Klima_Bad"
+2014-11-10 17:27:42.402  - info: hm-rega.0 renamed hm-rpc.0.LEQ0773309:5 to "HM-WDS30-OT2-SM LEQ0773309:5"
+2014-11-10 17:27:42.531  - info: hm-rega.0 renamed hm-rpc.0.LEQ0773309:4 to "HM-WDS30-OT2-SM LEQ0773309:4"
+2014-11-10 17:27:42.641  - info: hm-rega.0 renamed hm-rpc.0.LEQ0773309:3 to "HM-WDS30-OT2-SM LEQ0773309:3"
+2014-11-10 17:27:42.775  - info: legacy.0 received states
+2014-11-10 17:27:42.986  - info: hm-rega.0 renamed hm-rpc.0.LEQ0773309:2 to "Flur Rücklauf"
+2014-11-10 17:27:43.081  - info: hm-rega.0 renamed hm-rpc.0.LEQ0773309:1 to "Kellerdiele Rücklauf"
+2014-11-10 17:27:43.221  - info: hm-rega.0 renamed hm-rpc.0.LEQ0773309:0 to "HM-WDS30-OT2-SM LEQ0773309:0"
+2014-11-10 17:27:43.341  - info: hm-rega.0 renamed hm-rpc.0.LEQ0773309 to "HM-WDS30-OT2-SM LEQ0773309"
+2014-11-10 17:27:43.443  - info: hm-rega.0 renamed hm-rpc.0.LEQ0773307:5 to "HM-WDS30-OT2-SM LEQ0773307:5"
+2014-11-10 17:27:43.540  - info: hm-rega.0 renamed hm-rpc.0.LEQ0773307:4 to "HM-WDS30-OT2-SM LEQ0773307:4"
+2014-11-10 17:27:43.619  - info: hm-rega.0 renamed hm-rpc.0.LEQ0773307:3 to "HM-WDS30-OT2-SM LEQ0773307:3"
+2014-11-10 17:27:43.727  - info: hm-rega.0 renamed hm-rpc.0.LEQ0773307:2 to "WZ Rücklauf"
+2014-11-10 17:27:43.799  - info: hm-rega.0 renamed hm-rpc.0.LEQ0773307:1 to "EZ Rücklauf"
+2014-11-10 17:27:43.880  - info: hm-rega.0 renamed hm-rpc.0.LEQ0773307:0 to "HM-WDS30-OT2-SM LEQ0773307:0"
+2014-11-10 17:27:43.965  - info: hm-rega.0 renamed hm-rpc.0.LEQ0773307 to "HM-WDS30-OT2-SM LEQ0773307"
+2014-11-10 17:27:44.059  - info: hm-rega.0 renamed hm-rpc.0.LEQ0773306:5 to "HM-WDS30-OT2-SM LEQ0773306:5"
+2014-11-10 17:27:44.078  - info: legacy.0 socket.io: handshake authorized
+2014-11-10 17:27:44.147  - info: legacy.0 socket.io <-- 192.168.2.116:50923 websocket connected
+2014-11-10 17:27:44.167  - info: hm-rega.0 renamed hm-rpc.0.LEQ0773306:4 to "HKV_EG diff"
+2014-11-10 17:27:44.159  - info: legacy.0 socket.io <-- getData
+2014-11-10 17:27:44.303  - info: hm-rega.0 renamed hm-rpc.0.LEQ0773306:3 to "HM-WDS30-OT2-SM LEQ0773306:3"
+2014-11-10 17:27:44.395  - info: hm-rega.0 renamed hm-rpc.0.LEQ0773306:2 to "HKV_EG Rücklauf"
+2014-11-10 17:27:44.478  - info: hm-rega.0 renamed hm-rpc.0.LEQ0773306:1 to "HKV_EG Vorlauf"
+2014-11-10 17:27:44.577  - info: hm-rega.0 renamed hm-rpc.0.LEQ0773306:0 to "HM-WDS30-OT2-SM LEQ0773306:0"
+2014-11-10 17:27:44.663  - info: hm-rega.0 renamed hm-rpc.0.LEQ0773306 to "HM-WDS30-OT2-SM LEQ0773306"
+2014-11-10 17:27:44.744  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:50 to "HM-RCV-50 BidCoS-RF:50"
+2014-11-10 17:27:44.839  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:49 to "HM-RCV-50 BidCoS-RF:49"
+2014-11-10 17:27:44.929  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:48 to "HM-RCV-50 BidCoS-RF:48"
+2014-11-10 17:27:45.031  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:47 to "HM-RCV-50 BidCoS-RF:47"
+2014-11-10 17:27:45.137  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:46 to "HM-RCV-50 BidCoS-RF:46"
+2014-11-10 17:27:45.210  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:45 to "HM-RCV-50 BidCoS-RF:45"
+2014-11-10 17:27:45.299  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:44 to "HM-RCV-50 BidCoS-RF:44"
+2014-11-10 17:27:45.406  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:43 to "HM-RCV-50 BidCoS-RF:43"
+2014-11-10 17:27:45.496  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:42 to "HM-RCV-50 BidCoS-RF:42"
+2014-11-10 17:27:45.591  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:41 to "HM-RCV-50 BidCoS-RF:41"
+2014-11-10 17:27:45.678  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:40 to "HM-RCV-50 BidCoS-RF:40"
+2014-11-10 17:27:45.766  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:39 to "HM-RCV-50 BidCoS-RF:39"
+2014-11-10 17:27:45.837  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:38 to "HM-RCV-50 BidCoS-RF:38"
+2014-11-10 17:27:45.936  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:37 to "HM-RCV-50 BidCoS-RF:37"
+2014-11-10 17:27:46.016  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:36 to "HM-RCV-50 BidCoS-RF:36"
+2014-11-10 17:27:46.139  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:35 to "HM-RCV-50 BidCoS-RF:35"
+2014-11-10 17:27:46.241  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:34 to "HM-RCV-50 BidCoS-RF:34"
+2014-11-10 17:27:46.335  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:33 to "HM-RCV-50 BidCoS-RF:33"
+2014-11-10 17:27:46.440  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:32 to "HM-RCV-50 BidCoS-RF:32"
+2014-11-10 17:27:46.518  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:31 to "HM-RCV-50 BidCoS-RF:31"
+2014-11-10 17:27:46.629  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:30 to "HM-RCV-50 BidCoS-RF:30"
+2014-11-10 17:27:46.732  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:29 to "HM-RCV-50 BidCoS-RF:29"
+2014-11-10 17:27:46.822  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:28 to "HM-RCV-50 BidCoS-RF:28"
+2014-11-10 17:27:46.917  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:27 to "HM-RCV-50 BidCoS-RF:27"
+2014-11-10 17:27:47.026  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:26 to "HM-RCV-50 BidCoS-RF:26"
+2014-11-10 17:27:47.117  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:25 to "HM-RCV-50 BidCoS-RF:25"
+2014-11-10 17:27:47.211  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:24 to "HM-RCV-50 BidCoS-RF:24"
+2014-11-10 17:27:49.561  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:23 to "HM-RCV-50 BidCoS-RF:23"
+2014-11-10 17:27:49.643  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:22 to "HM-RCV-50 BidCoS-RF:22"
+2014-11-10 17:27:49.719  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:21 to "HM-RCV-50 BidCoS-RF:21"
+2014-11-10 17:27:49.786  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:20 to "HM-RCV-50 BidCoS-RF:20"
+2014-11-10 17:27:49.843  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:19 to "HM-RCV-50 BidCoS-RF:19"
+2014-11-10 17:27:49.918  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:18 to "HM-RCV-50 BidCoS-RF:18"
+2014-11-10 17:27:49.996  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:17 to "HM-RCV-50 BidCoS-RF:17"
+2014-11-10 17:27:50.076  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:16 to "HM-RCV-50 BidCoS-RF:16"
+2014-11-10 17:27:50.164  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:15 to "HM-RCV-50 BidCoS-RF:15"
+2014-11-10 17:27:50.234  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:14 to "HM-RCV-50 BidCoS-RF:14"
+2014-11-10 17:27:50.295  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:13 to "HM-RCV-50 BidCoS-RF:13"
+2014-11-10 17:27:50.378  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:12 to "HM-RCV-50 BidCoS-RF:12"
+2014-11-10 17:27:50.454  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:11 to "Triggertaster_CCUIO"
+2014-11-10 17:27:50.532  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:10 to "HM-RCV-50 BidCoS-RF:10"
+2014-11-10 17:27:50.628  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:9 to "HM-RCV-50 BidCoS-RF:9"
+2014-11-10 17:27:50.695  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:8 to "HM-RCV-50 BidCoS-RF:8"
+2014-11-10 17:27:50.762  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:7 to "HM-RCV-50 BidCoS-RF:7"
+2014-11-10 17:27:50.835  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:6 to "HM-RCV-50 BidCoS-RF:6"
+2014-11-10 17:27:50.900  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:5 to "HM-RCV-50 BidCoS-RF:5"
+2014-11-10 17:27:51.004  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:4 to "HM-RCV-50 BidCoS-RF:4"
+2014-11-10 17:27:51.088  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:3 to "HM-RCV-50 BidCoS-RF:3"
+2014-11-10 17:27:51.158  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:2 to "HM-RCV-50 BidCoS-RF:2"
+2014-11-10 17:27:51.227  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:1 to "HM-RCV-50 BidCoS-RF:1"
+2014-11-10 17:27:51.295  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF:0 to "HM-RCV-50 BidCoS-RF:0"
+2014-11-10 17:27:51.394  - info: hm-rega.0 renamed hm-rpc.0.BidCoS-RF to "HM-RCV-50 BidCoS-RF"
+2014-11-10 17:27:51.472  - info: hm-rega.0 renamed hm-rpc.0.LEQ0397071:2 to "HM-PB-2-FM LEQ0397071:2"
+2014-11-10 17:27:51.474  - info: legacy.0 socket.io <-- getObjects
+2014-11-10 17:27:51.555  - info: hm-rega.0 renamed hm-rpc.0.LEQ0397071:1 to "HM-PB-2-FM LEQ0397071:1"
+2014-11-10 17:27:51.631  - info: hm-rega.0 renamed hm-rpc.0.LEQ0397071:0 to "HM-PB-2-FM LEQ0397071:0"
+2014-11-10 17:27:51.742  - info: hm-rega.0 renamed hm-rpc.0.LEQ0397071 to "HM-PB-2-FM LEQ0397071"
+2014-11-10 17:27:51.841  - info: hm-rega.0 renamed hm-rpc.0.KEQ0543553:5 to "HKV_OG:5"
+2014-11-10 17:27:51.925  - info: hm-rega.0 renamed hm-rpc.0.KEQ0543553:4 to "HKV_OG_Erwärmung"
+2014-11-10 17:27:52.018  - info: hm-rega.0 renamed hm-rpc.0.KEQ0543553:3 to "HKV_OG_Abkühlung"
+2014-11-10 17:27:52.015  - info: legacy.0 socket.io <-- getIndex
+2014-11-10 17:27:52.114  - info: hm-rega.0 renamed hm-rpc.0.KEQ0543553:2 to "HKV_OG_Rücklauf (+0,2°C)"
+2014-11-10 17:27:52.199  - info: hm-rega.0 renamed hm-rpc.0.KEQ0543553:1 to "HKV_OG_Vorlauf"
+2014-11-10 17:27:52.268  - info: hm-rega.0 renamed hm-rpc.0.KEQ0543553:0 to "HKV_OG:0"
+2014-11-10 17:27:52.337  - info: hm-rega.0 renamed hm-rpc.0.KEQ0543553 to "HKV_OG"
+2014-11-10 17:27:52.403  - info: hm-rega.0 renamed hm-rpc.0.KEQ0543560:5 to "HKV_DG:5"
+2014-11-10 17:27:52.479  - info: hm-rega.0 renamed hm-rpc.0.KEQ0543560:4 to "HKV_DG_Erwärmung:4"
+2014-11-10 17:27:52.542  - info: hm-rega.0 renamed hm-rpc.0.KEQ0543560:3 to "HKV_DG_Abkühlung:3"
+2014-11-10 17:27:52.619  - info: hm-rega.0 renamed hm-rpc.0.KEQ0543560:2 to "HKV_DG_Rücklauf:2"
+2014-11-10 17:27:52.697  - info: hm-rega.0 renamed hm-rpc.0.KEQ0543560:1 to "HKV_DG_Vorlauf:1"
+2014-11-10 17:27:52.793  - info: hm-rega.0 renamed hm-rpc.0.KEQ0543560:0 to "HKV_DG:0"
+2014-11-10 17:27:52.866  - info: hm-rega.0 renamed hm-rpc.0.KEQ0543560 to "HKV_DG"
+2014-11-10 17:27:52.942  - info: hm-rega.0 renamed hm-rpc.0.KEQ0963067:5 to "Hitzesensor_vorne:5"
+2014-11-10 17:27:53.024  - info: hm-rega.0 renamed hm-rpc.0.KEQ0963067:4 to "Hitzesensor_vorne:4"
+2014-11-10 17:27:53.094  - info: hm-rega.0 renamed hm-rpc.0.KEQ0963067:3 to "Hitzesensor_vorne:3"
+2014-11-10 17:27:53.165  - info: hm-rega.0 renamed hm-rpc.0.KEQ0963067:2 to "Hitzesensor_vorne:2"
+2014-11-10 17:27:53.320  - info: hm-rega.0 renamed hm-rpc.0.KEQ0963067:1 to "Hitzesensor_vorne:1"
+2014-11-10 17:27:53.395  - info: hm-rega.0 renamed hm-rpc.0.KEQ0963067:0 to "Hitzesensor_vorne:0"
+2014-11-10 17:27:53.467  - info: hm-rega.0 renamed hm-rpc.0.KEQ0963067 to "Hitzesensor_vorne"
+2014-11-10 17:27:53.522  - info: hm-rega.0 renamed hm-rpc.0.KEQ0963583:5 to "Hitzesensor_hinten:5"
+2014-11-10 17:27:53.580  - info: hm-rega.0 renamed hm-rpc.0.KEQ0963583:4 to "Hitzesensor_hinten:4"
+2014-11-10 17:27:53.638  - info: hm-rega.0 renamed hm-rpc.0.KEQ0963583:3 to "Hitzesensor_hinten:3"
+2014-11-10 17:27:53.716  - info: hm-rega.0 renamed hm-rpc.0.KEQ0963583:2 to "Hitzesensor_hinten:2"
+2014-11-10 17:27:53.793  - info: hm-rega.0 renamed hm-rpc.0.KEQ0963583:1 to "Hitzesensor_hinten:1"
+2014-11-10 17:27:53.858  - info: hm-rega.0 renamed hm-rpc.0.KEQ0963583:0 to "Hitzesensor_hinten:0"
+2014-11-10 17:27:53.923  - info: hm-rega.0 renamed hm-rpc.0.KEQ0963583 to "Hitzesensor_hinten"
+2014-11-10 17:27:53.986  - info: hm-rega.0 renamed hm-rpc.0.KEQ0543528:5 to "Heizungskreis:5"
+2014-11-10 17:27:54.040  - info: hm-rega.0 renamed hm-rpc.0.KEQ0543528:4 to "Heizkreis_Aufheizung"
+2014-11-10 17:27:54.110  - info: hm-rega.0 renamed hm-rpc.0.KEQ0543528:3 to "Heizkreis_Abkühlung"
+2014-11-10 17:27:54.177  - info: hm-rega.0 renamed hm-rpc.0.KEQ0543528:2 to "Heizkreis_Rücklauf"
+2014-11-10 17:27:54.247  - info: hm-rega.0 renamed hm-rpc.0.KEQ0543528:1 to "Heizkreis_Vorlauf"
+2014-11-10 17:27:54.307  - info: hm-rega.0 renamed hm-rpc.0.KEQ0543528:0 to "Heizkreis:0"
+2014-11-10 17:27:54.381  - info: hm-rega.0 renamed hm-rpc.0.KEQ0543528 to "Heizkreis"
+2014-11-10 17:27:54.453  - info: hm-rega.0 renamed hm-rpc.0.JRT0001400:1 to "Griff WC:1"
+2014-11-10 17:27:54.523  - info: hm-rega.0 renamed hm-rpc.0.JRT0001400:0 to "Griff WC:0"
+2014-11-10 17:27:54.586  - info: hm-rega.0 renamed hm-rpc.0.JRT0001400 to "Griff WC"
+2014-11-10 17:27:54.650  - info: hm-rega.0 renamed hm-rpc.0.KEQ0068246:1 to "Griff Stubentür:1"
+2014-11-10 17:27:54.719  - info: hm-rega.0 renamed hm-rpc.0.KEQ0068246:0 to "Griff Stubentür:0"
+2014-11-10 17:27:54.780  - info: hm-rega.0 renamed hm-rpc.0.KEQ0068246 to "Griff Stubentür"
+2014-11-10 17:27:54.853  - info: hm-rega.0 renamed hm-rpc.0.JRT0001416:1 to "Griff Schlafzimmer:1"
+2014-11-10 17:27:54.938  - info: hm-rega.0 renamed hm-rpc.0.JRT0001416:0 to "Griff Schlafzimmer:0"
+2014-11-10 17:27:54.992  - info: hm-rega.0 renamed hm-rpc.0.JRT0001416 to "Griff Schlafzimmer"
+2014-11-10 17:27:55.059  - info: hm-rega.0 renamed hm-rpc.0.JRT0001587:1 to "Griff Kellertür:1"
+2014-11-10 17:27:55.121  - info: hm-rega.0 renamed hm-rpc.0.JRT0001587:0 to "Griff Kellertür:0"
+2014-11-10 17:27:55.186  - info: hm-rega.0 renamed hm-rpc.0.JRT0001587 to "Griff Kellertür"
+2014-11-10 17:27:55.254  - info: hm-rega.0 renamed hm-rpc.0.JRT0001572:1 to "Griff Bad:1"
+2014-11-10 17:27:55.320  - info: hm-rega.0 renamed hm-rpc.0.JRT0001572:0 to "Griff Bad:0"
+2014-11-10 17:27:55.385  - info: hm-rega.0 renamed hm-rpc.0.JRT0001572 to "Griff Bad"
+2014-11-10 17:27:55.458  - info: hm-rega.0 renamed hm-rpc.0.LEQ0397121:2 to "HM-PB-2-FM LEQ0397121:2"
+2014-11-10 17:27:55.512  - info: hm-rega.0 renamed hm-rpc.0.LEQ0397121:1 to "HM-PB-2-FM LEQ0397121:1"
+2014-11-10 17:27:55.579  - info: hm-rega.0 renamed hm-rpc.0.LEQ0397121:0 to "Funkwandtaster_05:0"
+2014-11-10 17:27:55.654  - info: hm-rega.0 renamed hm-rpc.0.LEQ0397121 to "Funkwandtaster_05"
+2014-11-10 17:27:55.727  - info: hm-rega.0 renamed hm-rpc.0.LEQ0397038:2 to "HM-PB-2-FM LEQ0397038:2"
+2014-11-10 17:27:55.805  - info: hm-rega.0 renamed hm-rpc.0.LEQ0397038:1 to "HM-PB-2-FM LEQ0397038:1"
+2014-11-10 17:27:55.880  - info: hm-rega.0 renamed hm-rpc.0.LEQ0397038:0 to "Funkwandtaster_04:0"
+2014-11-10 17:27:55.943  - info: hm-rega.0 renamed hm-rpc.0.LEQ0397038 to "Funkwandtaster_04"
+2014-11-10 17:27:56.026  - info: hm-rega.0 renamed hm-rpc.0.LEQ0397120:2 to "HM-PB-2-FM LEQ0397120:2"
+2014-11-10 17:27:56.084  - info: hm-rega.0 renamed hm-rpc.0.LEQ0397120:1 to "HM-PB-2-FM LEQ0397120:1"
+2014-11-10 17:27:56.149  - info: hm-rega.0 renamed hm-rpc.0.LEQ0397120:0 to "Funkwandtaster_03:0"
+2014-11-10 17:27:56.204  - info: hm-rega.0 renamed hm-rpc.0.LEQ0397120 to "Funkwandtaster_03"
+2014-11-10 17:27:56.268  - info: hm-rega.0 renamed hm-rpc.0.LEQ0397107:2 to "HM-PB-2-FM LEQ0397107:2"
+2014-11-10 17:27:56.341  - info: hm-rega.0 renamed hm-rpc.0.LEQ0397107:1 to "HM-PB-2-FM LEQ0397107:1"
+2014-11-10 17:27:56.406  - info: hm-rega.0 renamed hm-rpc.0.LEQ0397107:0 to "Funkwandtaster_02:0"
+2014-11-10 17:27:56.477  - info: hm-rega.0 renamed hm-rpc.0.LEQ0397107 to "Funkwandtaster_02"
+2014-11-10 17:27:56.542  - info: hm-rega.0 renamed hm-rpc.0.JEQ0090871:2 to "Funktaster4:2"
+2014-11-10 17:27:56.608  - info: hm-rega.0 renamed hm-rpc.0.JEQ0090871:1 to "Funktaster4:1"
+2014-11-10 17:27:56.681  - info: hm-rega.0 renamed hm-rpc.0.JEQ0090871:0 to "Funktaster4:0"
+2014-11-10 17:27:56.753  - info: hm-rega.0 renamed hm-rpc.0.JEQ0090871 to "Funktaster4"
+2014-11-10 17:27:56.825  - info: hm-rega.0 renamed hm-rpc.0.JEQ0090876:2 to "Funktaster 3:2"
+2014-11-10 17:27:56.889  - info: hm-rega.0 renamed hm-rpc.0.JEQ0090876:1 to "Funktaster 3:1"
+2014-11-10 17:27:56.953  - info: hm-rega.0 renamed hm-rpc.0.JEQ0090876:0 to "Funktaster 3:0"
+2014-11-10 17:27:57.019  - info: hm-rega.0 renamed hm-rpc.0.JEQ0090876 to "Funktaster 3"
+2014-11-10 17:27:57.088  - info: hm-rega.0 renamed hm-rpc.0.LEQ0073262:1 to "Funkgong_EG:1"
+2014-11-10 17:27:57.155  - info: hm-rega.0 renamed hm-rpc.0.LEQ0073262:0 to "Funkgong_EG:0"
+2014-11-10 17:27:57.236  - info: hm-rega.0 renamed hm-rpc.0.LEQ0073262 to "Funkgong_EG"
+2014-11-10 17:27:57.289  - info: hm-rega.0 renamed hm-rpc.0.JEQ0459314:1 to "BWM_vorne:1"
+2014-11-10 17:27:57.348  - info: hm-rega.0 renamed hm-rpc.0.JEQ0459314:0 to "BWM_vorne:0"
+2014-11-10 17:27:57.417  - info: hm-rega.0 renamed hm-rpc.0.JEQ0459314 to "BWM_vorne"
+2014-11-10 17:27:57.481  - info: hm-rega.0 renamed hm-rpc.0.JEQ0459186:1 to "BWM_hinten:1"
+2014-11-10 17:27:57.553  - info: hm-rega.0 renamed hm-rpc.0.JEQ0459186:0 to "BWM_hinten:0"
+2014-11-10 17:27:57.637  - info: hm-rega.0 renamed hm-rpc.0.JEQ0459186 to "BWM_hinten"
+2014-11-10 17:27:57.730  - info: hm-rega.0 renamed hm-rpc.0.JEQ0459323:1 to "BWM_Garten:1"
+2014-11-10 17:27:57.815  - info: hm-rega.0 renamed hm-rpc.0.JEQ0459323:0 to "BWM_Garten:0"
+2014-11-10 17:27:57.876  - info: hm-rega.0 renamed hm-rpc.0.JEQ0459323 to "BWM_Garten"
+2014-11-10 17:27:57.945  - info: hm-rega.0 renamed hm-rpc.0.KEQ1070107:1 to "BWM_Garage:1"
+2014-11-10 17:27:58.011  - info: hm-rega.0 renamed hm-rpc.0.KEQ1070107:0 to "BWM_Garage:0"
+2014-11-10 17:27:58.074  - info: hm-rega.0 renamed hm-rpc.0.KEQ1070107 to "BWM_Garage"
+2014-11-10 17:27:58.183  - info: hm-rega.0 renamed hm-rpc.0.KEQ0120652:6 to "3_fach_01:6"
+2014-11-10 17:27:58.255  - info: hm-rega.0 renamed hm-rpc.0.KEQ0120652:5 to "3_fach_01:5"
+2014-11-10 17:27:58.314  - info: hm-rega.0 renamed hm-rpc.0.KEQ0120652:4 to "3_fach_01:4"
+2014-11-10 17:27:58.387  - info: hm-rega.0 renamed hm-rpc.0.KEQ0120652:3 to "3_fach_01:3"
+2014-11-10 17:27:58.478  - info: hm-rega.0 renamed hm-rpc.0.KEQ0120652:2 to "3_fach_01:2"
+2014-11-10 17:27:58.545  - info: hm-rega.0 renamed hm-rpc.0.KEQ0120652:1 to "3_fach_01:1"
+2014-11-10 17:27:58.607  - info: hm-rega.0 renamed hm-rpc.0.KEQ0120652:0 to "3_fach_01:0"
+2014-11-10 17:27:58.684  - info: hm-rega.0 renamed hm-rpc.0.KEQ0120652 to "3_fach_01"
+2014-11-10 17:27:58.758  - info: hm-rega.0 renamed hm-rpc.0.KEQ0120726:6 to "3-Fach-Taster_Stube:6"
+2014-11-10 17:27:58.832  - info: hm-rega.0 renamed hm-rpc.0.KEQ0120726:5 to "3-Fach-Taster_Stube:5"
+2014-11-10 17:27:58.905  - info: hm-rega.0 renamed hm-rpc.0.KEQ0120726:4 to "3-Fach-Taster_Stube:4"
+2014-11-10 17:27:58.977  - info: hm-rega.0 renamed hm-rpc.0.KEQ0120726:3 to "3-Fach-Taster_Stube:3"
+2014-11-10 17:27:59.047  - info: hm-rega.0 renamed hm-rpc.0.KEQ0120726:2 to "3-Fach-Taster_Stube:2"
+2014-11-10 17:27:59.114  - info: hm-rega.0 renamed hm-rpc.0.KEQ0120726:1 to "3-Fach-Taster_Stube:1"
+2014-11-10 17:27:59.255  - info: hm-rega.0 renamed hm-rpc.0.KEQ0120726:0 to "3-Fach-Taster_Stube:0"
+2014-11-10 17:28:00.025  - info: hm-rega.0 got 58 programs
+2014-11-10 17:28:00.511  - info: hm-rega.0 added/updated 58 programs
+2014-11-10 17:28:00.512  - info: hm-rega.0 deleted 0 programs
+2014-11-10 17:28:02.132  - info: hm-rega.0 got 60 variables
+2014-11-10 17:28:02.358  - info: hm-rega.0 added/updated 60 variables
+2014-11-10 17:28:02.359  - info: hm-rega.0 deleted 0 variables
+2014-11-10 17:28:02.360  - info: hm-rega.0 request state values
+2014-11-10 17:28:02.560  - info: hm-rega.0 State alarms 0
+2014-11-10 17:28:02.562  - info: hm-rega.0 State maintenance 6
+2014-11-10 17:28:03.370  - info: hm-rega.0 got state values
+2014-11-10 17:28:29.006  - info: legacy.0 socket.io: transport end (undefined)
+2014-11-10 17:28:29.017  - info: legacy.0 socket.io <-- 192.168.2.116:50923 websocket disconnected
+2014-11-10 17:28:32.534  - info: hm-rega.0 State alarms 0
+2014-11-10 17:28:32.538  - info: hm-rega.0 State maintenance 6
+2014-11-10 17:28:32.897  - info: legacy.0 socket.io: handshake authorized
+2014-11-10 17:28:32.918  - info: legacy.0 socket.io <-- 192.168.2.116:50933 websocket connected
+2014-11-10 17:28:32.926  - info: legacy.0 socket.io <-- getData
+2014-11-10 17:28:32.948  - info: legacy.0 socket.io <-- touchFile www/dashui/css/dashui-user.css
+2014-11-10 17:28:35.313  - info: legacy.0 socket.io <-- getObjects
+2014-11-10 17:28:35.816  - info: legacy.0 socket.io <-- getIndex
+2014-11-10 17:28:35.829  - info: legacy.0 socket.io <-- readFile dashui-views.json
+2014-11-10 17:28:36.951  - info: legacy.0 adding dp 69800
+2014-11-10 17:28:36.953  - info: legacy.0 adding dp 69801
+2014-11-10 17:28:36.954  - info: legacy.0 adding dp 69802
+2014-11-10 17:28:37.749  - info: legacy.0 setState io.legacy.0.instanceData Start undefined undefined
+2014-11-10 17:28:37.752  - info: legacy.0 setState io.legacy.0.instanceId ed7298f7 undefined undefined
+2014-11-10 17:28:37.753  - info: legacy.0 setState io.legacy.0.instanceCmd changedView undefined undefined
+2014-11-10 17:28:37.805  - error: legacy.0 Addon DashUI  Cannot render widget jqplot: Error: No data specified
+2014-11-10 17:28:37.807  - error: legacy.0 Addon DashUI  Cannot render widget jqplot: Error: No data specified
+2014-11-10 17:28:37.809  - error: legacy.0 Addon DashUI  Cannot render widget jqplot: Error: No data specified
+2014-11-10 17:28:37.810  - error: legacy.0 Addon DashUI  Cannot render widget jqplot: Error: No data specified
+2014-11-10 17:28:37.842  - error: legacy.0 Addon DashUI  Cannot render widget jqplot: TypeError: Cannot read property '1' of undefined
+2014-11-10 17:28:37.844  - error: legacy.0 Addon DashUI  Cannot render widget jqplot: Error: No data specified
+2014-11-10 17:28:37.845  - error: legacy.0 Addon DashUI  Cannot render widget jqplot: Error: No data specified
+2014-11-10 17:28:37.846  - error: legacy.0 Addon DashUI  Cannot render widget jqplot: Error: No data specified
+2014-11-10 17:28:37.847  - error: legacy.0 Addon DashUI  Cannot render widget jqplot: Error: No data specified
+2014-11-10 17:28:37.924  - error: legacy.0 Addon DashUI  Cannot render widget jqplot: Error: No data specified
+2014-11-10 17:28:37.925  - error: legacy.0 Addon DashUI  Cannot render widget jqplot: Error: No data specified
+2014-11-10 17:29:02.463  - info: hm-rega.0 State alarms 0
+2014-11-10 17:29:02.465  - info: hm-rega.0 State maintenance 6
+2014-11-10 17:29:32.544  - info: hm-rega.0 State alarms 0
+2014-11-10 17:29:32.546  - info: hm-rega.0 State maintenance 6
+2014-11-10 17:30:00.700  - info: controller instance system.adapter.dwd.0 started with pid 13329
+2014-11-10 17:30:02.494  - info: hm-rega.0 State alarms 0
+2014-11-10 17:30:02.497  - info: hm-rega.0 State maintenance 6
+2014-11-10 17:30:02.970  - info: dwd.0 starting. Version 0.1.0
+2014-11-10 17:30:03.556  - info: dwd.0 setting states
+2014-11-10 17:30:08.579  - info: controller instance system.adapter.dwd.0 terminated with code 0
+2014-11-10 17:30:32.535  - info: hm-rega.0 State alarms 0
+2014-11-10 17:30:32.538  - info: hm-rega.0 State maintenance 6
+2014-11-10 17:31:02.559  - info: hm-rega.0 State alarms 0
+2014-11-10 17:31:02.562  - info: hm-rega.0 State maintenance 6
+
+
+
+root@cubox-i:/opt/iobroker# netstat -tulpen
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       User       Inode       PID/Program name
+tcp        0      0 127.0.0.1:6379          0.0.0.0:*               LISTEN      104        4302        2483/redis-server
+tcp        0      0 0.0.0.0:2000            0.0.0.0:*               LISTEN      0          5740        2790/io.hm-rpc.0
+tcp        0      0 0.0.0.0:8080            0.0.0.0:*               LISTEN      1000       687         2269/ccu.io
+tcp        0      0 0.0.0.0:2101            0.0.0.0:*               LISTEN      1000       713         2269/ccu.io
+tcp        0      0 0.0.0.0:22              0.0.0.0:*               LISTEN      0          680         2661/sshd
+tcp        0      0 0.0.0.0:1880            0.0.0.0:*               LISTEN      0          8170        2812/node-red
+tcp        0      0 0.0.0.0:8088            0.0.0.0:*               LISTEN      0          5873        2798/io.legacy.0
+tcp        0      0 0.0.0.0:5984            0.0.0.0:*               LISTEN      105        5490        2224/beam.smp
+tcp6       0      0 :::22                   :::*                    LISTEN      0          682         2661/sshd
+udp        0      0 0.0.0.0:68              0.0.0.0:*                           0          4148        1670/dhclient
+udp        0      0 192.168.2.179:123       0.0.0.0:*                           0          4319        2491/ntpd
+udp        0      0 127.0.0.1:123           0.0.0.0:*                           0          4318        2491/ntpd
+udp        0      0 0.0.0.0:123             0.0.0.0:*                           0          1716        2491/ntpd
+udp        0      0 0.0.0.0:26940           0.0.0.0:*                           0          4129        1670/dhclient
+udp6       0      0 :::49116                :::*                                0          4130        1670/dhclient
+udp6       0      0 fe80::d263:b4ff:fe0:123 :::*                                0          4321        2491/ntpd
+udp6       0      0 ::1:123                 :::*                                0          4320        2491/ntpd
+udp6       0      0 :::123                  :::*                                0          1717        2491/ntpd
+
+
+
+Use current user 'root' for iobroker? If not, the 'iobroker' user will be created.! [Y/n]n
+Create user iobroker ...
+E: Could not get lock /var/lib/dpkg/lock - open (11: Resource temporarily unavailable)
+E: Unable to lock the administration directory (/var/lib/dpkg/), is another process using it?
+Adding user `iobroker' to group `sudo' ...
+Adding user iobroker to group sudo
+Done.

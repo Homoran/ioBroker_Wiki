@@ -1,0 +1,59 @@
++ RGRaph Thermometer
++ RGraph Gauge
++ hq widgets IpCamera
++ bars views_bar
++ basic val - number
++ time_and_weather htcWeather
+
+- hq widgets on_off
+2014-10-21 20:40:45.003  - error: pmessage hm-rpc.0.JEQ0646431:3{"val":true,"ack":false,"ts":1413916845,"from":"system.adapter.legacy.0","lc":1413916845} Cannot read property 'TYPE' of undefined
+2014-10-21 20:40:45.038  - error: TypeError: Cannot read property 'TYPE' of undefined
+    at Object.require.stateChange (/opt/iobroker/adapter/hm-rpc/hm-rpc.js:19:32)
+    at that.states.StatesRedis.change (/opt/iobroker/lib/adapter.js:888:80)
+    at RedisClient.<anonymous> (/opt/iobroker/lib/redis.js:48:21)
+    at RedisClient.EventEmitter.emit (events.js:106:17)
+    at RedisClient.return_reply (/opt/iobroker/node_modules/redis/index.js:672:22)
+    at HiredisReplyParser.<anonymous> (/opt/iobroker/node_modules/redis/index.js:309:14)
+    at HiredisReplyParser.EventEmitter.emit (events.js:95:17)
+    at HiredisReplyParser.execute (/opt/iobroker/node_modules/redis/lib/parser/hiredis.js:43:18)
+    at RedisClient.on_data (/opt/iobroker/node_modules/redis/index.js:534:27)
+    at Socket.<anonymous> (/opt/iobroker/node_modules/redis/index.js:91:14)
+
+	
+2014-10-21 20:42:10.327  - error: pmessage hm-rpc.0.JEQ0175818:1{"val":true,"ack":false,"ts":1413916930,"from":"system.adapter.legacy.0","lc":1413916930} Cannot read property 'TYPE' of undefined
+2014-10-21 20:42:10.353  - error: TypeError: Cannot read property 'TYPE' of undefined
+    at Object.require.stateChange (/opt/iobroker/adapter/hm-rpc/hm-rpc.js:19:32)
+    at that.states.StatesRedis.change (/opt/iobroker/lib/adapter.js:888:80)
+    at RedisClient.<anonymous> (/opt/iobroker/lib/redis.js:48:21)
+    at RedisClient.EventEmitter.emit (events.js:106:17)
+    at RedisClient.return_reply (/opt/iobroker/node_modules/redis/index.js:672:22)
+    at HiredisReplyParser.<anonymous> (/opt/iobroker/node_modules/redis/index.js:309:14)
+    at HiredisReplyParser.EventEmitter.emit (events.js:95:17)
+    at HiredisReplyParser.execute (/opt/iobroker/node_modules/redis/lib/parser/hiredis.js:43:18)
+    at RedisClient.on_data (/opt/iobroker/node_modules/redis/index.js:534:27)
+    at Socket.<anonymous> (/opt/iobroker/node_modules/redis/index.js:91:14)
+
+- hq widgets gauge
+keine Anzeige (Variable)
+
+
+- hq widgets temperature
+keine Anzeige (Sensorwert)
+
+
+- hq widgets info
+keine Anzeige (Variable)
+
+
+- hq widgets windows & shutter
+keine Anzeige Drehgriff und Rolladen
+
+
+- hq widgets Motion Detector
+keine Anzeige
+
+
+- jqplot Gauge
+
+
+- jq ctrl input
